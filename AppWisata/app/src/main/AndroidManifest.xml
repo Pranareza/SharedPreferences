@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appwisata">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Pariwisata Oke"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Wisata.Jawa_Tengah.Kudus.MuseumKretek"
+            android:label="@string/title_activity_museum_kretek"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Wisata.Jawa_Tengah.Kudus.AirTerjunBanteng"
+            android:label="@string/title_activity_air_terjun_banteng"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Tengah.Magelang.CandiSelogriyo"
+            android:label="@string/title_activity_candi_selogriyo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Tengah.Magelang.CurugSikencling"
+            android:label="@string/title_activity_curug_sikencling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Tengah.Magelang.CurugWatuploso"
+            android:label="@string/title_activity_curug_watuploso"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ListPlace.Wisata.Jawa_Tengah.ListPlaceKudus" />
+        <activity android:name=".ListPlace.Wisata.Jawa_Tengah.ListPlaceMagelang" />
+        <activity
+            android:name=".Wisata.Jawa_Tengah.Tegal.CurugCantelBumijawa"
+            android:label="@string/title_activity_curug_cantel_bumijawa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Tengah.Semarang.CurugLaweLimbangan"
+            android:label="@string/title_activity_curug_lawe_limbangan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Tengah.Semarang.VanaprasthaGedongSongo"
+            android:label="@string/title_activity_vanaprastha_gedong_songo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Tengah.Tegal.BukitBatuAgung"
+            android:label="@string/title_activity_bukit_batu_agung"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Tengah.Tegal.PemandianAirPanas"
+            android:label="@string/title_activity_pemandian_air_panas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Tengah.Semarang.PantaiMarina"
+            android:label="@string/title_activity_pantai_marina"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Tengah.Semarang.WatuGunung"
+            android:label="@string/title_activity_watu_gunung"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ListPlace.Wisata.Jawa_Tengah.ListPlaceTegal" />
+        <activity android:name=".ListPlace.Wisata.Jawa_Timur.ListPlaceMadiun" />
+        <activity android:name=".ListPlace.Wisata.Jawa_Tengah.ListPlaceSemarang" />
+        <activity android:name=".ListPlace.Wisata.Jawa_Timur.ListPlaceMalang" />
+        <activity
+            android:name=".Wisata.Jawa_Barat.Sukabumi.TamanBumiNasional"
+            android:label="@string/title_activity_taman_bumi_nasional"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Barat.Sukabumi.KawahRatu"
+            android:label="@string/title_activity_kawah_ratu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Barat.Sukabumi.JembatanSituGunung"
+            android:label="@string/title_activity_jembatan_situ_gunung"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Barat.Bekasi.ColumbusWaterpark"
+            android:label="@string/title_activity_columbus_waterpark"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Barat.Bekasi.CurugParigi"
+            android:label="@string/title_activity_curug_parigi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Barat.Bekasi.HutanKota"
+            android:label="@string/title_activity_pantai_mekar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Barat.Bekasi.Waterboom"
+            android:label="@string/title_activity_tama_rusa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Barat.Bekasi.GoWetWaterpark"
+            android:label="@string/title_activity_go_wet_waterpark"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Barat.Bogor.HighlandParkResort"
+            android:label="@string/title_activity_highland_park_resort"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Barat.Bogor.TamanBungaNusantara"
+            android:label="@string/title_activity_taman_bunga_nusantara"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Barat.Bogor.ParalayangBukitGantole"
+            android:label="@string/title_activity_paralayang_bukit_gantole"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Barat.Bogor.JungleLand"
+            android:label="@string/title_activity_jungle_land"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Barat.Bogor.JungleWaterpark"
+            android:label="@string/title_activity_jungle_waterpark"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Barat.Bogor.KebunRayaBogor"
+            android:label="@string/title_activity_kebun_raya_bogor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ListPlace.Wisata.Jawa_Timur.ListPlaceSurabaya" />
+        <activity android:name=".ListPlace.Wisata.Jawa_Barat.ListPlaceSukabumi" />
+        <activity
+            android:name=".Wisata.Jawa_Barat.Bandung.ObservatoriumBosscha"
+            android:label="@string/title_activity_observatorium_bosscha"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Barat.Bandung.UpsideDown"
+            android:label="@string/title_activity_upside_down"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Barat.Bandung.TangkubanPerahu"
+            android:label="@string/title_activity_tangkuban_perahu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Barat.Bandung.FarmHouse"
+            android:label="@string/title_activity_farm_house"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wisata.Jawa_Barat.Bandung.KawahPutih"
+            android:label="@string/title_activity_kawah_putih"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ListPlace.Wisata.Jawa_Barat.ListPlaceBekasi" />
+        <activity android:name=".ListPlace.Wisata.Jawa_Barat.ListPlaceBogor" />
+        <activity
+            android:name=".Wisata.Jawa_Barat.Bandung.Saung_Angklung"
+            android:label="@string/title_activity_info_wisata"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ListPlace.Wisata.Jawa_Barat.ListPlaceBandung" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

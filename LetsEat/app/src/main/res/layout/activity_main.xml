@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgandro"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/spin_provinsi"
+        android:layout_width="266dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:drawable/spinner_dropdown_background"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/txt_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="272dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="3dp"
+        android:text="Pilih Provinsi"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/spin_provinsi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Spinner
+        android:id="@+id/spin_kota"
+        android:layout_width="264dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:drawable/spinner_dropdown_background"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_view" />
+
+    <Button
+        android:id="@+id/btnCari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="286dp"
+        android:layout_marginBottom="81dp"
+        android:text="Cari"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spin_category" />
+
+    <TextView
+        android:id="@+id/txt_view"
+        android:layout_width="272dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="7dp"
+        android:text="Pilih Kota/Kabupaten"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/spin_kota"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spin_provinsi" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="414dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginBottom="29dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:gravity="center"
+        android:text="Temukan Tempat Makan"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="415dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="493dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:gravity="center"
+        android:text="Idaman Anda"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="245dp"
+        android:layout_marginBottom="7dp"
+        android:text="Kategori Makanan"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/spin_category"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spin_kota" />
+
+    <Spinner
+        android:id="@+id/spin_category"
+        android:layout_width="265dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="50dp"
+        android:background="@android:drawable/spinner_dropdown_background"
+        app:layout_constraintBottom_toTopOf="@+id/btnCari"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
