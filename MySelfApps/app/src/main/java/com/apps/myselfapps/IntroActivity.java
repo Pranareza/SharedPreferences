@@ -40,16 +40,6 @@ public class IntroActivity extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
 
-        // when this activity is about to be lunch we need to check if its opened before or not
-
-        if (restorePrefData()) {
-
-            Intent homeActivity = new Intent(getApplicationContext(),HomeActivity.class);
-            startActivity(homeActivity);
-            finish();
-        }
-
-
         setContentView(R.layout.activity_intro);
 
 
@@ -129,7 +119,7 @@ public class IntroActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 //open home activity
-                Intent homeActivity = new Intent(getApplicationContext(),HomeActivity.class);
+                Intent homeActivity = new Intent(IntroActivity.this,HomeActivity.class);
                 startActivity(homeActivity);
 
                 savePrefsData();
@@ -139,14 +129,6 @@ public class IntroActivity extends AppCompatActivity {
         });
     }
 
-    private boolean restorePrefData() {
-
-
-        SharedPreferences pref = getApplicationContext().getSharedPreferences("myPrefs",MODE_PRIVATE);
-        Boolean isIntroActivityOpenedBefore = pref.getBoolean("isIntroOpened",false);
-        return isIntroActivityOpenedBefore;
-
-    }
 
     private void savePrefsData() {
 
