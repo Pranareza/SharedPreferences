@@ -54,9 +54,10 @@ public class IntroActivity extends AppCompatActivity {
         //fill list screen
 
         final List<ScreenItem> mList = new ArrayList<>();
-        mList.add(new ScreenItem("Fresh Food", "Diawali dengan makan yang cukup!!!", R.drawable.eat_icon));
-        mList.add(new ScreenItem("Nice Code", "Setelah kenyang, mari kita mulai ngoding!!!", R.drawable.code_icon));
-        mList.add(new ScreenItem("Sleep For Rest", "Selesai ngoding, alangkah baiknya kita tidur untuk istirahat!!!", R.drawable.sleep_icon));
+        mList.add(new ScreenItem("Welcome", "Selamat datang di Aplikasi RZA APPS !!!", R.drawable.welcome));
+        mList.add(new ScreenItem("Deskirpsi Aplikasi", "Aplikasi RZA APPS berisi tentang biodata saya seperti, " +
+                                      "Profile, Interest, Daily Activity, Gallery, Music Favorite and Video", R.drawable.logdesc));
+        mList.add(new ScreenItem("Lets Go", "Hope you guys ENJOY!!!", R.drawable.letsgo));
 
         //setup viewpager
         screenPager = findViewById(R.id.screen_viewpager);
@@ -119,8 +120,8 @@ public class IntroActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 //open home activity
-                Intent homeActivity = new Intent(IntroActivity.this,HomeActivity.class);
-                startActivity(homeActivity);
+                Intent menuActivity = new Intent(IntroActivity.this,MenuActivity.class);
+                startActivity(menuActivity);
 
                 savePrefsData();
                 finish();

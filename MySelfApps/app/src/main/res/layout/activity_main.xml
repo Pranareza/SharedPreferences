@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/background">
+    android:background="@drawable/bghome">
 
 
     <ImageView
@@ -13,7 +13,7 @@
         android:layout_width="290dp"
         android:layout_height="437dp"
         android:layout_marginTop="16dp"
-        android:src="@drawable/transparant"
+        android:src="@drawable/logoo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,6 +25,7 @@
         android:layout_marginTop="16dp"
         android:gravity="center"
         android:text="RZA APPS"
+        android:textColor="@color/white"
         android:textSize="70sp"
         app:fontFamily="@font/bangers"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,6 +40,7 @@
         android:layout_marginTop="20dp"
         android:gravity="center"
         android:text="Design by Prana Reza Alviana"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:fontFamily="@font/antic"
         app:layout_constraintEnd_toEndOf="parent"
