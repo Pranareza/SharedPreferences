@@ -56,7 +56,7 @@ public class IntroActivity extends AppCompatActivity {
         final List<ScreenItem> mList = new ArrayList<>();
         mList.add(new ScreenItem("Welcome", "Selamat datang di Aplikasi RZA APPS !!!", R.drawable.welcome));
         mList.add(new ScreenItem("Deskirpsi Aplikasi", "Aplikasi RZA APPS berisi tentang biodata saya seperti, " +
-                                      "Profile, Interest, Daily Activity, Gallery, Music Favorite and Video", R.drawable.logdesc));
+                                        "Profile, Interest, Daily Activity, Gallery, Music Favorite and Video", R.drawable.logdesc));
         mList.add(new ScreenItem("Lets Go", "Hope you guys ENJOY!!!", R.drawable.letsgo));
 
         //setup viewpager
