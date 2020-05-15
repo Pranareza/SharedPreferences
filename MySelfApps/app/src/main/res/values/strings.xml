@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Menu</string>
+    <string name="app_name">RzaApps</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
     <string name="title_activity_menu">MenuActivity</string>
@@ -15,24 +15,6 @@
     <string name="menu_slideshow">Slideshow</string>
 
     <string name="home_second">Home Second</string>
-
-    <string-array name="daily_activity">
-        <item>Sholat</item>
-        <item>Olahraga</item>
-        <item>Makan</item>
-        <item>Main Game</item>
-        <item>Jalan-Jalan</item>
-        <item>Tidur</item>
-    </string-array>
-    
-    <string-array name="description">
-        <item>Isi nya disii</item>
-        <item>Isi nya disii</item>
-        <item>Isi nya disii</item>
-        <item>Isi nya disii</item>
-        <item>Isi nya disii</item>
-        <item>Isi nya disii</item>
-    </string-array>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

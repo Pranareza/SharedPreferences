@@ -1,17 +1,26 @@
 package com.apps.myselfapps;
 
+/*
+    Developed by 10117192 - Prana Reza Alviana - IF5
+    9 May 2020
+ */
+
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.ListFragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.FrameLayout;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
@@ -20,25 +29,15 @@ import java.util.ArrayList;
 
 public class MenuActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
-    RecyclerView recyclerView;
-
-    String s1[], s2[];
-    int images[] = {R.drawable.ic_home_black_24dp, R.drawable.ic_home_black_24dp, R.drawable.ic_home_black_24dp,
-            R.drawable.ic_face_black_24dp, R.drawable.ic_face_black_24dp, R.drawable.ic_arrow_forward_black_24dp};
-
-
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;
-    private RecyclerView mRecycleView;
-    private RecyclerView.Adapter mAdapter;
-    private RecyclerView.LayoutManager mLayoutManager;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
-        recyclerView = findViewById(R.id.recyclerView);
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer);
         NavigationView navigationView = findViewById(R.id.nav_view);

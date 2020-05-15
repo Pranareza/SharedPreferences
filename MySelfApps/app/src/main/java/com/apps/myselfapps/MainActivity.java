@@ -1,5 +1,10 @@
 package com.apps.myselfapps;
 
+/*
+    Developed by 10117192 - Prana Reza Alviana - IF5
+    02 May 2020
+ */
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -10,6 +15,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 
 public class MainActivity extends AppCompatActivity {
     private static int SPLASH_SCREEN = 4000;

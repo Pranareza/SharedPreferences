@@ -1,5 +1,10 @@
 package com.apps.myselfapps;
 
+/*
+    Developed by 10117192 - Prana Reza Alviana - IF5
+    05 May 2020
+ */
+
 public class ScreenItem {
 
     String Title, Description;

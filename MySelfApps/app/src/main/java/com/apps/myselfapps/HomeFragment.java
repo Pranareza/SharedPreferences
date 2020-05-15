@@ -1,5 +1,10 @@
 package com.apps.myselfapps;
 
+/*
+    Developed by 10117192 - Prana Reza Alviana - IF5
+    05 May 2020
+ */
+
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;

@@ -1,5 +1,10 @@
 package com.apps.myselfapps;
 
+/*
+    Developed by 10117192 - Prana Reza Alviana - IF5
+    03 May 2020
+ */
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
@@ -55,7 +60,7 @@ public class IntroActivity extends AppCompatActivity {
 
         final List<ScreenItem> mList = new ArrayList<>();
         mList.add(new ScreenItem("Welcome", "Selamat datang di Aplikasi RZA APPS !!!", R.drawable.welcome));
-        mList.add(new ScreenItem("Deskirpsi Aplikasi", "Aplikasi RZA APPS berisi tentang biodata saya seperti, " +
+        mList.add(new ScreenItem("Deskripsi Aplikasi", "Aplikasi RZA APPS berisi tentang biodata saya seperti, " +
                                         "Profile, Interest, Daily Activity, Gallery, Music Favorite and Video", R.drawable.logdesc));
         mList.add(new ScreenItem("Lets Go", "Hope you guys ENJOY!!!", R.drawable.letsgo));
 
